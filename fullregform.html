@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>REGISTRATION FORM</h2>
+    <form>
+        <div class="container">
+        <center><img src="pf.gif" height="75px" width="75px"></center>
+        <label for="first name">First Name:</label>
+        <input type="text" id="first name" name="first name" required>
+        <label for="last name">Last Name:</label>
+        <input type="text" id="last name" name="last name" required>
+        <label for="date of birth">Date Of Birth:</label>
+        <input type="text" id="date of birth" name="date of birth" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="enter password">Enter Password:</label>
+        <input type="password" name="enter password" id="enter password" required>
+        <label for="confirm password">Confirm Password:</label>
+        <input type="password" name="confirm password" id="confirm password" required>
+        <label for="phone number">Phone Number:</label>
+        <input type="tel"  name="phonenumber" id="phonenumber"
+required>
+     <label for="gender">Gender:</label>
+          Male: <input type="radio" name="gender" value="male">
+          Female: <input type="radio" name="gender" value="female">
+          Other: <input type="radio" name="gender" value="other">
+     <label for="language">Language:</label>
+     <select id="language">
+        <option value="Telugu" name="Telugu">Telugu</option>
+        <option value="Hindi" name="Hindi">Hindi</option>
+        <option value="English" name="English">English</option>
+        <option value="Tamil" name="Tamil">Tamil</option>
+        <option value="Malayalam" name="Malayalam">Malayalam</option>
+     </select>
+     <label for="Qualification">Qualification:</label>
+     <select id="Qualification">
+        <option value="Mtech" name="Mtech">Mtech</option>
+        <option value="Btech" name="Btech">Btech</option>
+        <option value="Degree" name="Degree">Degree</option>
+        <option value="Intermediate" name="Intermediate">Intermediate</option>
+        <option value="SSC" name="SSC">SSC</option>
+     </select>
+     <label for="State">State:</label>
+     <select id="State">
+        <option value="Andhra pradesh" name="Andhra pradesh">Andhra pradesh</option>
+        <option value="Bihar" name="Bihar">Bihar</option>
+        <option value="Chennai" name="Chennai">Chennai</option>
+        <option value="Delhi" name="Delhi">Delhi</option>
+        <option value="Gujarat" name="Gujarat">Gujarat</option>
+     </select>
+     <label for="District">District:</label>
+     <select id="District">
+        <option value="SPSR Nellore" name="SPSR Nellore">SPSR Nellore</option>
+        <option value="Guntur" name="Guntur">Guntur</option>
+        <option value="Vijayawada" name="Vijayawada">Vijayawada</option>
+        <option value="Kurnool" name="Kurnool">Kurnool</option>
+        <option value="Ongole" name="Ongole">Ongole</option>
+     </select>
+     <label for="Landmark">Landmark:</label>
+     <input type="text" id="Landmark" name="Landmark" required>
+        <label for="Pin code">Pin code:</label>
+        <input type="text"  name="Pin code" id="Pin code" required>
+        <label for="about">About:</label>
+        <textarea id="about"></textarea>
+        <div class="Indu">
+        <input type="submit" value="Register"></div>
+   </div> </div></form>
+</body>
+    </form>
+<style>
+    body{
+        background-image: url(bimage.jpg);
+        background-size: cover;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h2{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    form{
+        
+        padding: 10px;
+        height: 950px;
+        border-radius: 5px;
+        margin-left: 375px;
+        margin-right: 375px;
+        background-color: burlywood;
+    }
+    label{
+        display: block;
+        margin: 1px;
+        font-weight: bold;
+    }
+    input[type=text],
+    input[type=tel],
+    input[type=email],
+    input[type=password],
+    textarea{
+        padding: 5px;
+        border: 1px solid whitesmoke;
+        border-radius: 5px;
+        width:80%;
+        margin-bottom: 2px;
+    }
+    select{
+        width: 80%;
+        padding: 8px;
+        border: 1px solid whitesmoke;
+        border-radius: 3px;
+        margin-bottom: 10px;
+    }
+    input[type="submit"]{
+        color: blue;
+        background-color: aqua;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover{
+        background-color: aquamarine;
+    }
+    .container{
+        width:500px;
+        margin: auto;
+        height: 1000px;
+    }
+</style>
+</html>
